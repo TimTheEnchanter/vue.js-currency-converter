@@ -6,12 +6,12 @@ const cToU = ref(0)
 
 function usdToCAD(e, v = +e.target.value) {
   uToC.value = v
-  cToU.value = //Need to add formula
+  cToU.value = v * 1.4080534 //Nov 15 Rate
 }
 
 function cadToUSD(e, v = +e.target.value) {
   cToU.value = v
-  uToC.value = //Need to add formula
+  uToC.value = v * 0.71015842 //Nov 15 Rate
 }
 </script>
 
